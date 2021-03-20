@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 
 #Creating route and function
-@app.route('/home')
+@app.route('/')
 def index():
     return 'Home Page!'
 
